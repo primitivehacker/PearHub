@@ -38,7 +38,7 @@ export default function Hero(props) {
       return
     }
     if (story.trim().length === 0) {
-      alert('No favorite memory? This cannot be!')
+      alert('No favorite technology?')
       return
     }
     setSubmitting(true)
@@ -79,7 +79,7 @@ export default function Hero(props) {
               rows="5"
               cols="50"
               name="story"
-              placeholder="What is your favorite memory as a developer?"
+              placeholder="What are your favorite technologies to work with?"
               onChange={handleStoryChange}
               value={story}
             />
